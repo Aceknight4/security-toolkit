@@ -1,0 +1,22 @@
+[2026-03-30 15:00:34] | INFO       | System startup complete
+[2026-03-30 15:00:34] | WARNING    | Failed login attempt — user: admin
+[2026-03-30 15:00:34] | WARNING    | Failed login attempt — user: admin
+[2026-03-30 15:00:34] | WARNING    | Failed login attempt — user: admin
+[2026-03-30 15:00:34] | CRITICAL   | Account locked after 3 failed attempts
+[2026-03-30 15:00:34] | INFO       | Security scan completed — no threats found
+[2026-03-30 19:38:55] | INFO       | System startup complete
+[2026-03-30 19:38:55] | WARNING    | Failed login attempt — user: admin
+[2026-03-30 19:38:55] | WARNING    | Failed login attempt — user: admin
+[2026-03-30 19:38:55] | WARNING    | Failed login attempt — user: admin
+[2026-03-30 19:38:55] | CRITICAL   | Account locked after 3 failed attempts
+[2026-03-30 19:38:55] | INFO       | Security scan completed — no threats found
+[2026-03-30 19:38:55] | ALERT      | Port scan detected — source IP: 192.168.1.45
+[2026-03-30 20:00:01] | WARNING    | Failed login attempt — user: hacker
+[2026-03-30 20:00:03] | WARNING    | Failed login attempt — user: hacker
+[2026-03-30 20:00:04] | ALERT      | Port scan detected — source IP: 10.0.0.99
+[2026-03-30 20:00:05] | CRITICAL   | Account locked after 3 failed attempts
+[2026-03-30 20:01:01] | WARNING    | Failed login attempt — user: hacker
+[2026-03-30 20:01:02] | WARNING    | Failed login attempt — user: hacker
+[2026-03-30 20:01:03] | WARNING    | Failed login attempt — user: hacker
+[2026-03-30 20:01:04] | ALERT      | Port scan detected — source IP: 10.0.0.99
+[2026-03-30 20:01:05] | CRITICAL   | Account locked after 3 failed attempts
