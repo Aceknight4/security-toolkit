@@ -1,62 +1,93 @@
 # 🛡️ Python Security Toolkit
 
-A collection of Python automation scripts built as part of my 
-cybersecurity and automation training.
+A unified, menu-driven security toolkit built entirely in Python.
+Designed to demonstrate core SOC analyst and automation skills
+through practical, working tools.
+
+Run everything from a single entry point:
+
+    python3 toolkit.py
 
 ---
 
-## 📁 Projects
+## 🔧 Tools Included
 
-### 1. Professional Profile (`task1_profile/`)
-Displays a formatted personal profile using Python variables,
-lists, and the datetime module.
-
-**Concepts:** variables, f-strings, lists, datetime
-
----
-
-### 2. Security Log Writer (`task2_log_writer/`)
-Simulates a real security tool by writing timestamped log entries
-to a persistent file. Supports INFO, WARNING, CRITICAL, and ALERT
-severity levels — exactly as production logging tools do.
-
-**Concepts:** file handling, append mode, functions, timestamps
+| Tool | Description | Key Concepts |
+|---|---|---|
+| Log Writer | Generates timestamped security events | File I/O, severity levels |
+| Threat Detector | Parses logs and flags threats | Regex, SIEM logic |
+| Real-Time Monitor | Watches log file live | File tailing, while True |
+| Port Scanner | Scans a target for open ports | Sockets, TCP, recon |
+| Password Checker | Scores password strength | Regex, scoring, entropy |
 
 ---
 
-### 3. Automated Threat Detector (`task3_threat_detector/`)
-Parses a security log file and automatically detects threats:
-- Brute-force attacks (repeated failed logins)
-- Port scans (via IP extraction)
-- Critical system events
+## 📁 Project Structure
 
-Uses regex pattern matching and threshold-based alerting —
-the same core logic behind tools like Splunk and Wazuh.
-
-**Concepts:** regex, file parsing, dictionaries, SIEM logic
+    security-toolkit/
+    ├── toolkit.py
+    ├── modules/
+    │   ├── log_writer.py
+    │   ├── threat_detector.py
+    │   ├── port_scanner.py
+    │   └── password_checker.py
+    └── task5_realtime_monitor/
+        └── realtime_monitor.py
 
 ---
 
-## 🚀 How to Run
-```bash
-# Clone this repository
-git clone https://github.com/👉YOUR_USERNAME/security-toolkit.git
-cd security-toolkit
+## 🚀 Quick Start
 
-# Run any script
-python3 task1_profile/my_info.py
-python3 task2_log_writer/log_writer.py
-python3 task3_threat_detector/threat_detector.py
+    git clone https://github.com/Aceknight4/security-toolkit.git
+    cd security-toolkit
+    python3 toolkit.py
+
+Requirements: Python 3.8+ — standard library only, no pip installs needed.
+
+---
+
+## 🎯 Skills Demonstrated
+
+**Python**
+- File handling — read, write, append
+- Regex pattern matching with the re module
+- Socket programming and TCP connections
+- Dictionary counters and threshold logic
+- Real-time file tailing with while True loops
+- Modular code design with imports
+
+**Cybersecurity**
+- SIEM detection logic — brute force, port scan, critical events
+- Security log format — timestamped, severity-levelled entries
+- Network reconnaissance — port scanning and service identification
+- Password entropy analysis — character class scoring
+
+**Tools & Workflow**
+- Git version control and GitHub portfolio management
+- Linux terminal — Kali Linux environment
+
+---
+
+## 🌍 Real-World Relevance
+
+| This toolkit mirrors... | Real tools like... |
+|---|---|
+| Log writer | Syslog, Windows Event Log |
+| Threat detector | Splunk, IBM QRadar |
+| Real-time monitor | Fail2Ban, OSSEC |
+| Port scanner | Nmap |
+| Password checker | zxcvbn, HaveIBeenPwned API |
+
+---
+
+## 👤 Author
+
+**Anel Graph**
+Training toward remote roles in SOC Analysis, Security Automation,
+and Cloud Security Engineering.
+
+GitHub: https://github.com/Aceknight4
+Status: Training in progress 🚀
 ```
 
----
 
-## 🎯 Goal
-
-Training toward remote roles in:
-- SOC Analysis
-- Security Automation
-- Cloud Security Engineering
-
-**Author:** Anel Graph  
-**Status:** Training in progress 🚀

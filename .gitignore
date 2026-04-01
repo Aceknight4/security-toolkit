@@ -1,0 +1,7 @@
+*.log
+security_events.log
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+Thumbs.db
