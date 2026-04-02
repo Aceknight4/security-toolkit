@@ -41,7 +41,7 @@ def show_menu():
     menu_actions = {
         "1": run_log_writer,
         "2": run_threat_detector,
-        "3": lambda: print("\n  Run: python3 task5_realtime_monitor/realtime_monitor.py"),
+        "3": lambda: print("\n  Run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: python3 task5_realtime_monitor/realtime_monitor.py"),
         "4": run_port_scanner,
         "5": run_password_checker,
         "6": lambda: print_os_info(),        # ← add this
