@@ -8,6 +8,8 @@
 
 import os
 import sys
+from modules.utils import clear_screen, check_python_version, print_os_info
+check_python_version()
 
 # Add the current directory to Python's search path
 # This lets us import from the modules/ folder
@@ -36,6 +38,14 @@ def show_menu():
     print("  [0]  Exit toolkit")
     print("=" * 52)
 
+    menu_actions = {
+        "1": run_log_writer,
+        "2": run_threat_detector,
+        "3": lambda: print("\n  Run: python3 task5_realtime_monitor/realtime_monitor.py"),
+        "4": run_port_scanner,
+        "5": run_password_checker,
+        "6": lambda: print_os_info(),        # ← add this
+    }
 # -----------------------------------------------
 # Wrapper functions — one per tool
 # -----------------------------------------------

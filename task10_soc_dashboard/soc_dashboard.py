@@ -5,12 +5,16 @@
 # Skill   : Capstone — brings all tools together
 # ============================================
 
-import os
 import re
 import time
 import datetime
+import sys
+import os
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
+from modules.utils import clear_screen, get_log_path, check_python_version
 
-LOG_FILE = "security_events.log"
+check_python_version()
+LOG_FILE = get_log_path("security_events.log")
 REFRESH_SECONDS = 5
 BRUTE_THRESHOLD = 3
 WIDTH = 56
@@ -135,7 +139,7 @@ try:
         time.sleep(REFRESH_SECONDS)
 
 except KeyboardInterrupt:
-    os.system("clear")
+    clear_screen()
     print("\n" + "=" * 56)
     print("  SOC DASHBOARD — SESSION ENDED")
     print("=" * 56)
