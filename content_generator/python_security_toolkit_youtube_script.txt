@@ -1,0 +1,30 @@
+PROJECT: Python Security Toolkit
+PLATFORM: YOUTUBE
+GENERATED: 2026-04-02 21:53
+============================================================
+
+**TITLE:** Build a Mini SIEM in Python: Detect Brute Force Attacks & Port Scans in Real-Time
+
+**HOOK:** "What if I told you I built a cybersecurity toolkit from scratch in Python that detects brute force attacks and port scans in real-time? Sounds like a game-changer, right?"
+
+**PROBLEM:** "As a security engineer, I've seen firsthand how challenging it can be to monitor and respond to security threats in real-time. Traditional security tools can be expensive and complex, leaving many organizations vulnerable to attacks. That's why I created a unified menu-driven toolkit that simplifies security monitoring and threat detection."
+
+**DEMO:** "Let me show you a demo of my Python Security Toolkit in action. As you can see, I've got a mini SIEM system that detects brute force attacks and port scans in real-time. I'll simulate a brute force attack on my system, and... (simulate attack) ...my toolkit detects it instantly! I can also monitor my system's logs, scan for open ports, and even check password strength. It's all built into one intuitive interface."
+
+**SKILLS:** "This project showcases my skills in Python, regex, sockets, file I/O, and Git. I built this entire toolkit from scratch, demonstrating my ability to design and develop complex security solutions. Employers, take note: this project proves I can tackle real-world security challenges with creativity and expertise."
+
+**CTA:** "If you want to stay up-to-date with my latest cybersecurity projects and tutorials, be sure to subscribe to my channel. And, if you're interested in checking out the code for this project, head over to my GitHub repository: https://github.com/Aceknight4/security-toolkit. Thanks for watching, and I'll catch you in the next video!"
+
+**TAGS:** 
+1. Python Security
+2. SIEM System
+3. Cybersecurity Toolkit
+4. Brute Force Attack Detection
+5. Port Scan Detection
+6. Real-Time Monitoring
+7. Python Programming
+8. Security Automation
+9. Cybersecurity Engineering
+10. Python Project Ideas
+
+============================================================

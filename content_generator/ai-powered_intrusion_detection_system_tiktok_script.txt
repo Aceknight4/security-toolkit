@@ -1,0 +1,16 @@
+PROJECT: AI-Powered Intrusion Detection System
+PLATFORM: TIKTOK
+GENERATED: 2026-04-02 21:53
+============================================================
+
+HOOK: "You won't believe what I just caught with AI - a sneaky data exfiltration attack hiding in plain sight! [On-screen text: 'INFO log, but not so innocent...']"
+
+DEMO: "I built an AI-powered intrusion detection system using Groq API and Llama 3.3. It analyzes logs in real-time, detecting threats that rule-based systems miss. Check it out! [On-screen text: 'Real-time log analysis with Groq API and Llama 3.3'] [Show the tool analyzing logs on screen]"
+
+PAYOFF: "The AI just flagged a data exfiltration attack that was hidden in an INFO-level log. A rule-based system would've completely ignored it! [On-screen text: 'AI catches what others miss'] [Show the flagged attack on screen] This is a game-changer for cybersecurity!"
+
+CTA: "Want to see more projects like this? Follow me for the latest in cybersecurity and AI-powered tools! [On-screen text: 'Follow me for more cybersecurity content'] Check out the code on my GitHub, link in bio! [On-screen text: 'Link in bio: https://github.com/Aceknight4/security-toolkit']"
+
+HASHTAGS: #AIinCybersecurity #IntrusionDetection #DataExfiltration #CybersecurityMatters #GroqAPI #Llama3 #SecurityAutomation #PythonProgramming #CybersecurityEngineering #RemoteWorkOpportunities
+
+============================================================

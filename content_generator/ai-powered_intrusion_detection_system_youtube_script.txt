@@ -1,0 +1,30 @@
+PROJECT: AI-Powered Intrusion Detection System
+PLATFORM: YOUTUBE
+GENERATED: 2026-04-02 21:53
+============================================================
+
+**TITLE:** AI-Powered Intrusion Detection: Catching Hidden Threats in Real-Time
+
+**HOOK:** "What if I told you that most intrusion detection systems can miss deadly threats hiding in plain sight, even when they're labeled as 'INFO'?"
+
+**PROBLEM:** "Traditional rule-based systems often overlook behavioral threats, like data exfiltration, that are cleverly disguised as harmless log entries. This is a major problem, as it can lead to significant data breaches and security incidents."
+
+**DEMO:** "But what if we could use AI to detect these threats in real-time? I've built an AI-powered intrusion detection system using Groq API and Llama 3.3, and it's capable of identifying behavioral threats that would otherwise go unnoticed. Watch as I demonstrate how it catches a data exfiltration attack that's hiding in an INFO-level log entry... (demo playback) As you can see, the AI correctly identifies the threat, even though it's labeled as 'INFO'."
+
+**SKILLS:** "This project demonstrates my skills in Python, Groq API, Llama 3.3, and prompt engineering. By leveraging these technologies, I've created a powerful tool that can help organizations stay one step ahead of emerging threats."
+
+**CTA:** "If you want to stay up-to-date with my latest cybersecurity projects and tutorials, be sure to subscribe to my channel. You can also check out the code for this project on my GitHub page: https://github.com/Aceknight4/security-toolkit. Thanks for watching, and I'll see you in the next video!"
+
+**TAGS:** 
+1. AI-powered intrusion detection
+2. Cybersecurity
+3. Groq API
+4. Llama 3.3
+5. Python
+6. Real-time log analysis
+7. Behavioral threat detection
+8. Data exfiltration
+9. Security automation
+10. Machine learning for security
+
+============================================================
